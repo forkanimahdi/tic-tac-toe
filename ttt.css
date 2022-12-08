@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+    color: brown;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    position:absolute;
+    top: 15%;
+    left: 47%;
+}
+h1{
+    font-size: 45px;
+    color: rgb(122, 122, 121);
+    top: -2%;
+}
+.xsc{
+    position: absolute;
+    color: white;
+    top: 1%;   
+}
+.osc{
+    position: absolute;
+    color: white;
+    top: 8%;
+}
+#xsc{
+    position: absolute;
+    color: white;
+    top: 1%;   
+    left: 4%; 
+}
+#osc{
+    position: absolute;
+    color: white;
+    top: 8%;   
+    left: 4%; 
+}
+img{
+    width: 3.5%;
+    position: fixed;
+    top: 5.5%;
+    left: 54%;
+    
+}
+.container {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    width: 25rem;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3 ,1fr);
+    border: 1px solid red;
+}
+.block {
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(248, 5, 5, 0.918);
+    background: #222422;
+    user-select: none;
+}
+#ERR{
+    position: absolute;
+    top: 95%;
+    left: 48%;
+    color: yellow;
+}
+button{
+    position: absolute;
+    top: 91%;
+    left: 45%;
+    width: 10%;
+    height: 4%;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: maroon;
+    color: floralwhite;
+  }
+@media (max-width: 500px) {
+    img{
+        width: 10%;
+        position: fixed;
+        top: 5%;
+        left: 64%;
+    }
+    .container {
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        width: 20rem;
+        height: 20rem;
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        grid-template-rows: repeat(3 ,1fr);
+        border: 1px solid red;
+    }
+    h3{
+        position:absolute;
+        top: 15%;
+        left: 40%;
+    }
+    #ERR{
+        position: absolute;
+        top: 78%;
+        left: 41%;
+        color: yellow;
+    }
+    .xsc{
+    position: absolute;
+    color: white;
+    top: 80%;   
+    left: 44%;
+}
+.osc{
+    position: absolute;
+    color: white;
+    top: 85%;
+    left: 44%;
+}
+#xsc{
+    position: absolute;
+    color: white;
+    top: 80%;   
+    left: 54%; 
+}
+#osc{
+    position: absolute;
+    color: white;
+    top: 85%;   
+    left: 54%; 
+}
+button{
+  position: absolute;
+  top: 72%;
+  left: 36%;
+  width: 25%;
+  height: 4%;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: maroon;
+  color: floralwhite;
+}
+}
